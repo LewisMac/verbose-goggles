@@ -52,7 +52,18 @@ def number_to_short_month_name(number)
   end
 end
 
+def volume_of_cube(x)
+  x ** 3
+end
 
+
+def volume_of_sphere(x)
+  Math::PI * (x **3)
+end
+
+def farenheit_to_celsius(c)
+  (c - 32)/(9 / 5)
+end
 
 
 
